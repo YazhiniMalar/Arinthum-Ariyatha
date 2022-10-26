@@ -1,0 +1,123 @@
+@font-face {
+    font-family: 'Noto Serif Tamil';
+    src: url(assets\fonts\Noto_Serif_Tamil\NotoSerifTamil-VariableFont_wdth,wght.ttf);
+}
+*{
+    margin: 0 0 0 0;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Noto Serif Tamil';
+} 
+body{
+    background-color: #DFFBF9;
+}
+.head{
+    background-color: #007972;
+    color: white;
+    height: 150px;
+}
+.title{
+    text-align: center;
+    font-size: 70px;
+    vertical-align: middle;
+    padding-top: 10px;
+    position: relative;
+}
+.title::before{
+    content: "";
+    position: absolute;
+    left: 270px;
+    bottom: 0;
+    width: 0;
+    height: 5px;
+    background-color:white;
+    transition: width 0.25s ease-out;
+}
+.title:hover::before{
+    width: 63%;
+}
+.desc_1 p{
+    font-size: 20px;
+    margin: 20px;
+    line-height: 40px;
+}
+.desc_1 h4{
+    font-size: 50px;
+    text-align: center;
+    margin: 10px;
+}
+.category{
+    font-weight: bold;
+    padding-left: 25%;
+}
+.list{
+    margin: 2px;
+}
+.name{
+    padding-left: 10%;
+    line-height: 30px;
+    list-style: disc;
+    margin: 0;
+}
+.names{
+    text-decoration: none;
+    color: #004BBB;
+    margin: 0;
+}
+.line {
+    font-size: 50px;
+    height: 80px;
+    text-align: center;
+    padding-top: 30px;
+}
+.side_heading{
+    font-size: 50px;
+    font-weight: bold;
+    margin: 15px;
+    padding: 0 0 0 10px;
+    position: relative;
+}
+.side_heading::before{
+    content: "";
+    position: absolute;
+    left: 2px;
+    bottom: 0;
+    width: 0;
+    height: 5px;
+    background-color:black;
+    transition: width 0.25s ease-out;
+}
+.side_heading:hover::before{
+    width: 36%;
+}
+h6{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.details{
+    column-count: 2;
+}
+.TKMpic{
+    margin: 25px 0px 0px 25px;
+    padding-left: 100px;
+}
+.image{
+    width: 600px;
+}
+.texts{
+    font-size: 20px;
+    line-height: 40px;
+}
+.end{
+    background-color: #007972;
+    height: 50px;
+}
+.last{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 10px;
+}
